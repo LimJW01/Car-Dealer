@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Cart</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="shopping-cart.css">
+</head>
+<body>
+	<main class="page">
+	 	<section class="shopping-cart dark">
+	 		<div class="container">
+		        <div class="block-heading">
+		          <h2>Shopping Cart</h2>
+		          <p>These Are The Cars Available At The Moment ! </p>
+		        </div>
+		        <div class="content">
+	 				<div class="row">
+	 					<div class="col-md-12 col-lg-8">
+	 						<div class="items">
+				 				<div class="product">
+				 					<div class="row">
+					 					<div class="col-md-3">
+					 						<img class="img-fluid mx-auto d-block image" src="https://cimg1.ibsrv.net/ibimg/hgm/1920x1080-1/100/724/mini_100724901.jpg">
+					 					</div>
+					 					<div class="col-md-8">
+					 						<div class="info">
+						 						<div class="row">
+							 						<div class="col-md-5 product-name">
+							 							<div class="product-name">
+								 							<a href="#">2020 Mini Cooper F56 GP 3</a>
+								 							<div class="product-info">
+									 							<div>Engine Specifications: <span class="value">turbocharged 2.0-liter engine</span></div>
+									 							<div>Power Output: <span class="value">301 horsepower & 450 Newton-meters Of Torque</span></div>
+									 							<div>Performance: <span class="value">0 to 100 KM/H In 5.1 Seconds & The Top Speed Of 265 KM/H</span></div>
+									 						</div>
+									 					</div>
+							 						</div>
+							 						<div class="col-md-4 quantity">
+							 							<label for="quantity">Quantity:</label>
+							 							<input id="quantity" type="number" value ="1" class="form-control quantity-input">
+							 						</div>
+							 						<div class="col-md-3 price">
+							 							<span>$50,000</span>
+							 						</div>
+							 					</div>
+							 				</div>
+					 					</div>
+					 				</div>
+				 				</div>
+				 				<div class="product">
+				 					<div class="row">
+					 					<div class="col-md-3">
+					 						<img class="img-fluid mx-auto d-block image" src="https://www.slashgear.com/wp-content/uploads/2019/08/Audi-Sport-RS6-Avant-151-1280x720.jpg">
+					 					</div>
+					 					<div class="col-md-8">
+					 						<div class="info">
+						 						<div class="row">
+							 						<div class="col-md-5 product-name">
+							 							<div class="product-name">
+								 							<a href="#">2020 Audi RS 6 Avant</a>
+								 							<div class="product-info">
+									 							<div>Engine Specifications: <span class="value">twin-turbocharged 4.0-liter V-8</span></div>
+									 							<div>Power Output: <span class="value">591 horsepower and 800 nm of torque</span></div>
+									 							<div>Performance: <span class="value">0 To 100 KM/H in 3.6 seconds and top out at 309 KM/H</span></div>
+									 						</div>
+									 					</div>
+							 						</div>
+							 						<div class="col-md-4 quantity">
+							 							<label for="quantity">Quantity:</label>
+							 							<input id="quantity" type="number" value ="1" class="form-control quantity-input">
+							 						</div>
+							 						<div class="col-md-3 price">
+							 							<span>$112,745</span>
+							 						</div>
+							 					</div>
+							 				</div>
+					 					</div>
+					 				</div>
+				 				</div>
+				 				<div class="product">
+				 					<div class="row">
+					 					<div class="col-md-3">
+					 						<img class="img-fluid mx-auto d-block image" src="https://i.ytimg.com/vi/THsGebgZhhQ/maxresdefault.jpg">
+					 					</div>
+					 					<div class="col-md-8">
+					 						<div class="info">
+						 						<div class="row">
+							 						<div class="col-md-5 product-name">
+							 							<div class="product-name">
+								 							<a href="#">2020 Land Rover Range Rover Sport SVR</a>
+								 							<div class="product-info">
+									 							<div>Engine Specifications: <span class="value">5.0 litre V8 Supercharged Engine</span></div>
+									 							<div>Power Output: <span class="value">575 horsepower and 700 nm of Torque</span></div>
+									 							<div>Performance: <span class="value">0 to 100 KM/H in 4.5 Seconds And top out at 283 KM/H</span></div>
+									 						</div>
+									 					</div>
+							 						</div>
+							 						<div class="col-md-4 quantity">
+							 							<label for="quantity">Quantity:</label>
+							 							<input id="quantity" type="number" value ="1" class="form-control quantity-input">
+							 						</div>
+							 						<div class="col-md-3 price">
+							 							<span>$113,600</span>
+							 						</div>
+							 					</div>
+							 				</div>
+					 					</div>
+					 				</div>
+				 				</div>
+				 			</div>
+			 			</div>
+			 			<div class="col-md-12 col-lg-4">
+			 				<div class="summary">
+			 					<h3>Summary</h3>
+			 					<div class="summary-item"><span class="text">Subtotal</span><span class="price">$ 276,345</span></div>
+			 					<div class="summary-item"><span class="text">Discount</span><span class="price">$ 20,000</span></div>
+			 					<div class="summary-item"><span class="text">Shipping</span><span class="price">$ 0</span></div>
+			 					<div class="summary-item"><span class="text">Total</span><span class="price">$ 256,345</span></div>
+			 					<button type="button" class="btn btn-primary btn-lg btn-block"> <a href="payment.html">CHECKOUT</a></button>
+				 			</div>
+			 			</div>
+		 			</div> 
+		 		</div>
+	 		</div>
+		</section>
+	</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
